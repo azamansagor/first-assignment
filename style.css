@@ -56,6 +56,10 @@ section{
 .about .title, .latest-work .title{
     font-size: 48px;
 }
+.about .button-style img{
+    width: 20px;
+    vertical-align: middle;
+}
 .latest-work{
     background-color: #F8F9FC;
     padding: 120px;
