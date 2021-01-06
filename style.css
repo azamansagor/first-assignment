@@ -1,0 +1,131 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+.title{
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    color: #363958;
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0;
+}
+.title.sub, .title .highlight{
+    color: #FF8367;
+}
+.text-content{
+    color: #3E3E3E;
+    margin: 35px 0;
+}
+.align-center{
+    text-align: center;
+}
+.button-style{
+    text-decoration: none;
+    background-image: linear-gradient(lightsalmon, tomato);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+}
+section{
+    overflow: hidden;
+    margin: 25px 0;
+}
+.menu{
+    text-align: right;
+    padding: 30px 0;
+    margin: 0 14%;
+}
+.menu a{
+    display: inline-block;
+    padding: 0 10px;
+    color: #3C3C3C;
+    text-decoration: none;
+}
+.half-width{
+    width: 36%;
+    margin: 0 7%;
+    float: left;
+}
+.half-width img{
+    width: 100%;
+}
+
+.about .title, .latest-work .title{
+    font-size: 48px;
+}
+.latest-work{
+    background-color: #F8F9FC;
+    padding: 120px;
+}
+.latest-work .title{
+    margin-bottom: 50px;
+}
+.project{
+    width: 29%;
+    margin: 0 10px;
+    padding: 10px;
+    float: left;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0px 1px 15px -5px #ccc;
+    min-height: 350px;
+}
+.project .project-image img{
+    width: 100%;
+}
+.project h3{
+    color: #363958;
+    font-size: 24px;
+    font-weight: bold;
+}
+.project p{
+    color: #6C6C6C;
+}
+
+.inquiry{
+    background-image: url("images/inquiry.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 60px;
+    overflow: hidden;
+    width: 60%;
+    margin: 100px auto 50px;
+}
+.inquiry .left{
+    float: left;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    color: white;
+}
+.inquiry .right{
+    float: right;
+    padding: 20px 30px;
+}
+.footer{
+    text-align: center;
+    padding: 50px 0;
+}
+.footer h3{
+    font-size: 24px;
+    color: #696871;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.footer h2{
+    font-size: 36px;
+    color: #363958;
+    font-weight: bold;
+}
+.footer .icons .icon{
+    width: 36px;
+    display: inline-block;
+    margin: 0 10px;
+}
+.footer .icons .icon img{
+    width: 100%;
+}
+
