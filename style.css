@@ -31,7 +31,7 @@ body {
 }
 section{
     overflow: hidden;
-    margin: 25px 0;
+    margin: 30px 0;
 }
 .menu{
     text-align: right;
@@ -111,7 +111,7 @@ section{
 }
 .footer{
     text-align: center;
-    padding: 50px 0;
+    padding: 0px 0 50px 0;
 }
 .footer h3{
     font-size: 24px;
